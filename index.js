@@ -17,5 +17,8 @@ function signUp(event){
     else{
         document.getElementById("users").innerHTML=email;
         document.getElementById("pass").innerHTML=password;
+        document.getElementById("err2").style.display = "none";
+        document.getElementById("err1").style.display = "none";
+        
     }
 }
